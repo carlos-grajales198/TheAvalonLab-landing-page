@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Avalon Lab</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <script>
+        function show() {
+            const menu = document.getElementById('menu');
+            this.menu.style.left = '0';
+        }
+
+        function hide() {
+            const menu = document.getElementById('menu');
+            this.menu.style.left = '-100%';
+        }
+
+
+
+    </script>
+
+    <!-- === HEADER === -->
+    <div class="navbar">
+   
+        <div class="logo">
+            <!--  === Button Open Burger Menu ====  -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn" onclick="show()">
+                ☰
+            </label>
+        
+            The Avalon Lab
+        </div>
+
+        <div class="links-navbar">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#research">Research</a>
+            <a href="#education">Education</a>
+            <a href="#bio">Bio</a>
+            <a href="#news&press">News & Press</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+     <!-- --   BURGER MENU ------  -->
+
+     <section class="menu" id="menu" onclick="hide()">
+        <div class="close-menu">
+            <img src="images/X.png" onclick="hide()">
+        </div>
+
+        <div class="logo">
+            The Avalon Lab
+        </div>
+
+        <br>
+
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#bio">Bio</a>
+        <a href="#news&press">News & Press</a>
+        <a href="#contact">Contact</a>
+     </section>
+
+    <!-- === HOME === -->
+    <section class="home" id="home">
+        <div class="content-home">
+            <h1>The Avalon Lab</h1>
+            <p>We harness the power of Earth Observation technologies to deliver scientific 
+               analysis and guidance to reduce risk, implement sustainable practices, 
+               and achieve resilience.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- === PROJECTS === -->
+    <section class="projects" id="projects">
+        <h2 class="title">Current Projects</h2>
+        <p class="info">
+            Increasing global environmental difficulties challenge humanity. Scientific, engineering, 
+            and open dialogue solutions, have the capacity to help us examine and plan our direction 
+            as a species living on this planet.
+        </p>
+    </section>
+
+    <!-- === ROW ITEM PROJECTS === -->
+
+
+    <!-- === Urban Flooding === -->
+    <section class="row-projects">
+        <div class="image-row-projects image-urban ">
+            <div class="title-image title-image-urban">
+                Urban Flooding
+            </div>
+        </div>
+
+        <div class="col-text-row border-col-urban">
+            <p>
+                <strong>The problem:</strong> 
+                Urban flooding is a frequent problem affecting 
+                cities all over the world. The problem is more significant 
+                now that the climate is changing, and urbanization 
+                trends are increasing.
+            </p>
+        </div>
+
+        <div class="col-text-row border-col-urban">
+            <p>
+                <strong>What are we doing: </strong> 
+                We are developing models and alert systems that can 
+                provide estimates of potential flood areas before the storm.
+            </p>
+        </div>
+
+        <div class="col-text-row border-col-urban">
+            <p>
+                <strong>What for: </strong> 
+                To inform decision makers about flooding areas, 
+                pavement maintenance, and social vulnerability 
+                potential in the affected areas.
+            </p>
+
+        </div>
+    </section>
+    <div class="container-button">
+        <a href="https://www.mdpi.com/2306-5338/6/2/56" target="_blank">
+            <button class="seeMoreButton seeMoreFlooding">
+                See more
+            </button>
+        </a>
+    </div>
+
+
+    <!-- === Landslices === -->
+    <section class="row-projects">
+        <div class="image-row-projects image-landslices">
+            <div class="title-image title-image-landslices">
+                Landslides
+            </div>
+        </div>
+
+        <div class="col-text-row border-col-landslices">
+            <p>
+                <strong>The problem:</strong> Landslides are among the most common 
+                disasters worldwide, frequently leading to considerable economic 
+                losses and fatalities. Landslide vulnerability has increased due 
+                to urbanization patterns over the past decades, given that at 
+                least half of the world’s urban occupants settle at the 
+                outskirts of cities at the base of unstable slopes.
+            </p>
+        </div>
+
+        <div class="col-text-row border-col-landslices">
+            <p>
+                <strong>What are we doing: </strong> We are conducting numerous 
+                studies in different geographical regions to develop rainfall 
+                thresholds, landslide probability indices, 
+                and spatiotemporal mapping of risk.
+            </p>
+        </div>
+
+        <div class="col-text-row border-col-landslices">
+            <p>
+                <strong>What for: </strong> We are teaming up with global entities 
+                (GEO, UNDRR) to help inform decision-makers about the importance 
+                and application of Earth Observations for the prevention 
+                of landslide impact.
+            </p>
+        </div>
+    </section>
+    <div class="container-button">
+        <a href="https://www.mdpi.com/2072-4292/8/10/866" target="_blank">
+            <button class="seeMoreButton seeMoreLandslices">
+                See more
+            </button>
+        </a>
+    </div>
+
+
+    <!-- === Climate Changes=== -->
+    <section class="row-projects climate">
+        <div class="image-row-projects image-climate">
+            <div class="title-image title-image-urban">
+                Climate Change Resilience
+            </div>
+        </div>
+
+        <div class="col-text-row border-col-urban">
+            <p>
+                <strong>The problem:</strong> Climate change brings significant 
+                disruptions to our way of living. The ability of a city to 
+                adapt to these changes can contribute immensely to its resilience.
+            </p>
+        </div>
+
+        <div class="col-text-row border-col-urban">
+            <p>
+                <strong>What are we doing: </strong> We are working with The New York 
+                State Energy Research and Development Authority (NYSERDA) and various 
+                experts to determine climate change projections, impacts and how 
+                NYS can prepare for those changes.
+            </p>
+        </div>
+
+        <div class="col-text-row border-col-urban">
+            <p>
+                <strong>What for: </strong> To provide science and
+                information that will allow decision-
+                makers at all levels to make
+                informed choices about their
+                future.
+            </p>
+        </div>
+    </section>
+    <div class="container-button">
+        <a href="https://www.nyserda.ny.gov/" target="_blank">
+            <button class="seeMoreButton seeMoreFlooding" id="research">
+                See more
+            </button>
+        </a>
+    </div>
+
+
+    <!-- === RESEARCH === -->
+    <section class="research">
+        <img class="earth-gif" src="images/earth.gif">
+        <h2 class="title">Research</h2>
+        <p class="info">
+            At the Avalon Lab, we see science as a process that requires innovation, passion, collaboration, 
+            and discovery. A process with the power to transform humanity’s reality and ensure our survival.
+        </p>
+    </section>
+
+
+
+    <!-- === ROW RESEARCH === -->
+
+    <!-- === Wildfires === -->
+    <section class="row-research wildfires">
+        <div class="content-row-research">
+            <div class="text-row-research">
+                <strong>Wildfires</strong>
+                <strong>Affiliation/collaboration: NASA GSFC – NASA DEVELOP APPLIED SCIENCES</strong>
+                <p>
+                    Fires are driven by many different factors such as weather conditions, topographic 
+                    features, and fuels. In the case of the Kenai Peninsula of Alaska, vegetation 
+                    change is a very influential factor. To determine the relative risk of fire on 
+                    the peninsula, This NASA Applied sciences study incorporated some of these 
+                    factors into a machine-learning algorithm that learns from previous fire 
+                    events and predicts the probability of future fires.
+                </p>
+
+                <div class="container-button-research">
+                    <a href="https://develop.larc.nasa.gov/2018/summer/KenaiDisasters.html" target="_blank">
+                        <button class="seeMoreResearchButton" >
+                            See more
+                        </button> 
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="image-row-research">
+                <img src="./images/fire-forest-NASA.png">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- === Geomorphology === -->
+    <section class="row-research geomorphology">
+        <div class="content-row-research">
+            <div class="text-row-research">
+                <strong>Geomorphology and Earthquake Hazards</strong>
+                <strong>Affiliation/collaboration: CUNY Dominican Studies Institute</strong>
+                <p>
+                    The effects of the recent Haitian earthquakes have re-focused research interest 
+                    in the complex geological settings of Hispaniola. Previous studies delineate 
+                    segments of landslides and liquefaction present in the area, but 
+                    current information about the Northeastern Septentrional fault is not 
+                    complete. Within that context, a case is presented where the use of 
+                    remote sensing techniques such as Digital Elevation Model (DEM), band 
+                    rationing, Principal Component Analysis (PCA) and color composite analysis 
+                    of Landsat images can assist to map lineaments, mineral distribution, and 
+                    help identify fractures and faults in the area. The allocation of lithographic, 
+                    structural and mineralogical distribution is attempted by combining remote 
+                    sensing results with in-situ structural and chemical analysis.
+                </p>
+
+                <div class="container-button-research">
+                    <a href="https://www.ccny.cuny.edu/dsi" target="_blank">
+                        <button class="seeMoreResearchButton" >
+                            See more
+                        </button> 
+                    </a>
+                </div>
+            </div>
+
+            <div class="image-row-research">
+                <img src="./images/geomorphology.png">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- === Tropospheric === -->
+    <section class="row-research tropospheric">
+        <div class="content-row-research">
+            <div class="text-row-research">
+                <strong>Environmental Sustainability</strong>
+                <strong>Affiliation/collaboration: Group on Earth Observations (GEO)</strong>
+                <p>
+                    How do we supply a world of unlimited wants with a planet of limited resources? 
+                    Today, humans consume in nine months what the Earth produces in a year. Modern techno-scientific
+                    developments aid the inherent imperatives of economic systems where developed countries 
+                    currently have an ecological footprint five times greater than developing nations. 
+                    Nonetheless, as emerging economies join the consuming class, these patterns of consumption 
+                    will continue to grow. What is the solution then? Perhaps the underlying solution to ecological
+                    degradation and climate change is less a pragmatic and a more philosophical one. It encompasses 
+                    a deep examination of humanity’s values and direction as a species living on this planet. 
+                    See more below.
+                </p>
+
+                <div class="container-button-research">
+                    <a href="https://www.youtube.com/watch?v=dxc1jiPMgsU" target="_blank">
+                        <button class="seeMoreResearchButton" id="education">
+                            See more
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="image-row-research">
+                <img src="./images/tropospheric2.png">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- === EDUCATION === -->
+    <section class="education">
+        <img class="circuitos-gif" src="images/circuitos.gif">
+        <h2 class="title">Education</h2>
+        <p class="info">
+            The Avalon lab addresses education and learning, not as concepts or theories, but as instruments for integral 
+            development. We define knowledge as a product of material, social, historical, cultural, and mental conditions 
+            that make possible the management, control, and prediction of physical, social and individual phenomena. 
+            In the lab, we treat knowledge as the result of one process, and the beginning of another.
+        </p>
+
+        <div class="years-buttons">
+            <a href="https://docs.google.com/presentation/d/1H3luFopmIc00eW3-IEvHD-z9zV-1WmaE/edit#slide=id.p1" target="_blank">
+                <button class="yearButton">
+                    2020
+                </button>
+            </a>
+           
+            <a href="https://storymaps.arcgis.com/stories/5862554b77764e5b9d5c3708dd2462fe" target="_blank">
+                <button class="yearButton" id="bio">
+                    2021
+                </button>
+            </a>
+        </div>
+    </section>
+
+
+
+     <!-- === BIO === -->
+     <section class="bio" >
+        <h2 class="title">Bio</h2>
+
+        <div class="content-bio">
+            <div class="image-bio">
+                <img src="images/photo-bio.png">
+            </div>
+
+            <div class="text-bio">
+                <p>
+                    <strong>Dr. C. Avalon Cullen - Lead Scientist</strong> Physical Scientist and Assistant Professor in the Department of Chemistry,
+                    Earth, and Environmental Sciences at the City University of New York (CUNY). At GEO, she serves a Co-Chair of the Disaster 
+                    Risk Reduction (DRR) Working Group 3 which investigates links between climate change, the Sustainable Development Goals (SDG), 
+                    and the implementation of satellite observations to support disaster risk reduction and resilience efforts around the world. 
+                    Currently she is also a member of the Technical Working Groups advising on the development of the New York State 
+                    Climate Impacts Assessment: Understanding and Preparing for Our Changing Climate.
+                </p>
+
+            </div>
+        </div>
+     </section>
+
+     <h4 id="news&press"></h4>
+
+     <!-- === NEWS & PRESS === -->
+    <section class="news-and-press">
+        <h2 class="title">News & Press</h2>
+        <p class="info">
+            Please see our new developments, outreach, and media appearances below
+        </p>
+
+        <div class="icons-news">
+                <div class="icon-new">
+                    <a href="https://www.gc.cuny.edu/About-the-GC/Provost-s-Office/The-Sciences/Spotlight/Contents/Alumni/Earth-and-Environmental-Sciences/Cheila-Cullen"
+                        target="_blank">
+                        <img src="images/Graduate-Center.png">
+                    </a>
+                </div>
+
+            <div class="icon-new">
+                <a href="https://www.earthobservations.org/drr_wg.php" target="_blank">
+                    <img src="images/GEO.png">
+                </a>
+            </div>
+
+            <div class="icon-new">
+                <a href="https://www.cessrst.org/about/our-people/detail/cheila-avalon-cullen" target="_blank">
+                    <img src="images/NOAA.png">
+                </a>
+            </div>
+
+            <div class="icon-new">
+                <a target="_blank">
+                    <img src="images/youtube.png">
+                </a>
+            </div>
+
+        </div>
+
+        <p class="info-aditional">
+            Landsat imagery courtesy of USGS/NASA Landsat
+        </p>
+    </section>
+
+
+
+    <!-- === CONTACT === -->
+    <section class="contact" id="contact">
+        <h2 class="title">Contact</h2>
+
+        <div class="contact-info">
+            <a href="https://orcid.org/0000-0001-6116-4912" target="_blank">
+                <img class="ID-icon" src="images/ID.png"> 
+            </a>
+            
+            <img class="mail-icon" src="images/mail-icon.png">
+            <p class="mail">Cheila.Cullen@bcc.cuny.edu</p>
+
+            <a href="https://www.researchgate.net/profile/C-Avalon-Cullen" target="_blank">
+                <button class="researchButton">
+                    ResearchGate
+                </button> 
+            </a>
+        </div>
+    </section>
+
+
+    <!-- === FOOTER === -->
+    <footer>
+        <p>© 2021 Fugitive & Fine Entertainment LLC</p>
+    </footer>
+
+
+</body>
+
+</html>
